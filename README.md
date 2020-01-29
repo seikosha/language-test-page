@@ -8,11 +8,11 @@
 
 ### **About**
 
-This project is built for analyze a text which users enter, and returns a result.
+This project is built for analyze a url which users enter, and returns a result.
 
 ### **API used**
 
-I used the Aylien API, which is a text analyzer of natural language processing, to finish this project. With its language detection function, you can simply type in the text and the website will return the reulst of which language you use.
+I used the Aylien API, which is a text analyzer of natural language processing, to finish this project. With its language sentiment detection function, you can simply type in the url and the website will return the sentiment test results of the url.
 
 ### **How to use**
 
