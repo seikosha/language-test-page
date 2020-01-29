@@ -30,13 +30,13 @@ app.get('/', function (req, res) {
     res.sendFile('dist/index.html')
 })
 
-app.post('/language', function(req, res) {
+app.post('/sentiment', function(req, res) {
     console.log(req);
-    const textUser = req.body.text;
+    const urlUser = req.body.url;
 
-    textapi.language({text: textUser}, function(error, response) {
+    textapi.sentiment({url: urlUser}, function(error, response) {
       if (error === null) {
-        projectData['language'] = response;
+        projectData['sentiment'] = response;
 
         res.status(200).send(projectData);
         console.log(projectData)

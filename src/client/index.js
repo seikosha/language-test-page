@@ -1,4 +1,4 @@
-import { textChecker } from './js/textChecker'
+import { urlChecker } from './js/urlChecker'
 import { handleSubmit } from './js/formHandler'
 
 import './styles/base.scss'
@@ -7,8 +7,6 @@ import './styles/form.scss'
 import './styles/header.scss'
 
 export {
-  textChecker,
+  urlChecker,
   handleSubmit
 }
-
-// console.log("CHANGE!!");
