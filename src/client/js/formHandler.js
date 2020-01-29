@@ -19,6 +19,8 @@ function handleSubmit(event) {
         document.getElementById('subjectivity').innerHTML = res.sentiment.subjectivity
         document.getElementById('polarity-conf').innerHTML = res.sentiment.polarity_confidence
         document.getElementById('subjectivity-conf').innerHTML = res.sentiment.subjectivity_confidence
+        document.getElementById('text-fragment').innerHTML = res.sentiment.text
+        console.log(res.sentiment.text);
       })
     } else {
       alert('Please type the valid url!');
